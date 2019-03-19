@@ -1,0 +1,1 @@
+cmd_/users/goodsep/infiniswap/infiniswap_bd/infiniswap.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /users/goodsep/infiniswap/infiniswap_bd/infiniswap.ko /users/goodsep/infiniswap/infiniswap_bd/infiniswap.o /users/goodsep/infiniswap/infiniswap_bd/infiniswap.mod.o
